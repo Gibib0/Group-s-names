@@ -26,6 +26,8 @@ function checkGroup(groupName) {
 
 function validating(groupArr) {
 	groupArr.forEach(group => {
-		console.log(validating(group));
+		console.log(checkGroup(group));
 	})
 }
+
+validating(arrGroup)
